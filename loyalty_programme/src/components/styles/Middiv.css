@@ -1,0 +1,14 @@
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.route-card{
+    position: absolute;
+    top: 200px;
+    background-color: antiquewhite;
+    min-width: 800px;
+    height: 300px;
+
+}
