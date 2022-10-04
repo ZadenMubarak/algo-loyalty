@@ -8,7 +8,8 @@ const Middiv = () => {
             <h1>What is your bussiness' industry</h1>
             <br/><br/><br/>
             
-            <button>services</button>
+            <button className='services'>services</button>
+            <button className='retail'>retail</button>
         </div>
     </div>
   )
