@@ -1,4 +1,5 @@
 import React from 'react'
+import './service.css'
 
 function Services() {
   return (
@@ -7,6 +8,7 @@ function Services() {
 
         <h1>reward by mebership time</h1>
         <h1>reward by certain action</h1>
+        
     </div>
   )
 }

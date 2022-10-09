@@ -3,54 +3,70 @@ body{
 }
 
 nav{
-  border-color: rgb(206, 3, 3);
+  position: absolute;
+  top: 0%;
+  background-color: transparent;
+  min-height: 80px;
+  min-width: 100%;
+  border-color: rgb(0, 0, 0);
+  box-shadow: 0 13px 20px rgb(0 0 0 / 0.2);
 }
 
-.parent{
-  display: flex;
+.serv{
+  position: absolute;
+
+  color: #3c4fe0;
+}
+
+.text-div{
+  text-align: center;
+}
+
+/* CSS */
+.button-29 {
+  position: absolute;
+  left: 1100px;
+  top: 10px;
   align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
   justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
 }
 
-.route-card{
-  position: absolute;
-  top: 200px;
-  background-color: rgb(253, 245, 234);
-  min-width: 800px;
-  height: 300px;
-
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
 }
 
-.route-card .services{
-  position: absolute;
-  top: 70%;
-  left: 50px;
-  width: 145px;
-  height: 50px;
-  background-color: #ffff;
-  border-color: rgb(187, 252, 252);
-  border-color: transparent;
-
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
 }
 
-.route-card .retail{
-  position: absolute;
-  top: 70%;
-  left: 200px;
-  width: 125px;
-  height: 50px;
-  background-color: #ffff;
-  border-color: rgb(187, 252, 252);
-  border-color: transparent;
-}
-
-.route-card .dining{
-  position: absolute;
-  top: 70%;
-  left: 330px;
-  width: 125px;
-  height: 50px;
-  background-color: #ffff;
-  border-color: rgb(187, 252, 252);
-  border-color: transparent;
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
 }
