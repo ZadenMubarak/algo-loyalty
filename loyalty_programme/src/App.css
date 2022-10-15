@@ -1,32 +1,20 @@
 body{
-  background-color: #ebd8a6;
+  background: bisque;
 }
 
 nav{
   position: absolute;
-  top: 0%;
-  background-color: transparent;
-  min-height: 80px;
-  min-width: 100%;
-  border-color: rgb(0, 0, 0);
+  background-color: bisque;
   box-shadow: 0 13px 20px rgb(0 0 0 / 0.2);
+  min-width: 100%;
+  min-height: 50px;
+
 }
 
-.serv{
-  position: absolute;
-
-  color: #3c4fe0;
-}
-
-.text-div{
-  text-align: center;
-}
-
-/* CSS */
 .button-29 {
   position: absolute;
-  left: 1100px;
-  top: 10px;
+  left: 83%;
+  top: -40px;
   align-items: center;
   appearance: none;
   background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);

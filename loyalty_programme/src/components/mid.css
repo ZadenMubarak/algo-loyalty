@@ -1,0 +1,54 @@
+.parent1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle{
+    position: absolute;
+    top: 40%;
+    background: aliceblue;
+    height: 300px;
+    min-width: 800px;
+    text-align: center;
+}
+
+.serv{
+    width: 125px;
+    height: 50px;
+    background-color: #ffff;
+    border-color: rgb(187, 252, 252);
+    border-color: blue;
+}
+
+.retail{
+    width: 125px;
+    height: 50px;
+    background-color: #ffff;
+    border-color: rgb(51, 77, 77);
+    border-color: blue;
+}
+
+
+.dining{
+    width: 125px;
+    height: 50px;
+    background-color: #ffff;
+    border-color: rgb(187, 252, 252);
+    border-color: blue;
+}
+
+.ser-link{
+    color: black;
+}
+
+.ret-link{
+    color: black;
+}
+
+
+.text-div{
+    position: absolute;
+    top: 100px;
+    text-align: center;
+}
