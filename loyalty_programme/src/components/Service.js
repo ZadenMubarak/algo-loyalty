@@ -1,7 +1,11 @@
-import React, {useRef} from 'react'
+import React, {useRef, useState} from 'react'
 import './style/service.css'
+import Modal from './Verify';
+
+
 
 function Services() {
+  const [modalOpen, setModalOpen] = useState(false);
 
     const inputRef = useRef(null);
 
@@ -20,15 +24,18 @@ function Services() {
             <textarea placeholder='Word of thanks'></textarea>
 
             <br/><br/>
-            <button className='button-19' onClick={HandleClick}>send reward to customer</button>
+            <button className='button-19' onClick={() => {
+          setModalOpen(true);
+        }}>send reward to customer</button>
         </div>
 
         <div className='customer1'>
           <h1>reward by action</h1>
         </div>
+        {modalOpen && <Modal setOpenModal={setModalOpen}/>}
         
     </div>
   )
 }
 
-export default Services
+export default Services;
