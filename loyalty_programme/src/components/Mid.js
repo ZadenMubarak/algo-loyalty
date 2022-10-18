@@ -8,6 +8,9 @@ const Mid = () => {
 
     <div className='parent1'>
           <div className='text-div'>
+            <h1>Stop the struggling</h1>
+            <h1>Keep your customer's happy</h1>
+            
     
             <h4>Your decentralied customer loyalty manager</h4>
             <h4>Here to help you take care of customers while you take care of your business</h4>

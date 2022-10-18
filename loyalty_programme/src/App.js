@@ -18,9 +18,9 @@ function App() {
         </Routes>
         <nav>
           <ul>
-            <span>Tiola</span>
-            <li>How it works</li>
-            <li>Pricing</li>
+            <span className='tiola'>Tiola</span>
+            <li className='howit'>How it works</li>
+            <li className='price'>Pricing</li>
           </ul>
           <button className="button-29" onClick={Connect}>Connect Algo wallet</button>
         </nav>

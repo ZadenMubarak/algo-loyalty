@@ -11,10 +11,31 @@ nav{
 
 }
 
+.tiola{
+  font-size: 2.2rem;
+  color: rgb(0, 255, 170);
+}
+
+nav li{
+  position: absolute;
+  top: 40%;
+  color: #5468ff;
+}
+
+nav .howit{
+  position: absolute;
+  left: 20%;
+}
+
+nav .price{
+  position: absolute;
+  left: 30%;
+}
+
 .button-29 {
   position: absolute;
   left: 83%;
-  top: -40px;
+  top: -60px;
   align-items: center;
   appearance: none;
   background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
