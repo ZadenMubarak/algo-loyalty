@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Link} from 'react-router-dom'
 
 import Connect from './components/Connect';
 import Home from './components/Home';
@@ -18,7 +18,7 @@ function App() {
         </Routes>
         <nav>
           <ul>
-            <span className='tiola'>Tiola</span>
+            <Link className='tiola' to='/'>Tiola</Link>
             <li className='howit'>How it works</li>
             <li className='price'>Pricing</li>
           </ul>

@@ -9,9 +9,9 @@ function Services() {
 
     const inputRef = useRef(null);
 
-    const HandleClick = () =>{
-        console.log(inputRef.current.value)
-    }
+    // const HandleClick = () =>{
+    //     console.log(inputRef.current.value)
+    // }
   return (
     <div className='main'>
         <div className='customer'>
