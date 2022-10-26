@@ -1,6 +1,6 @@
 # algo-loyalty
 
-`where i'm  from 
+`where i'm  from ; south africa, this is an app that would do well`
 
 #Algorand customer loyalty Dapp
 
