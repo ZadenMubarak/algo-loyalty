@@ -1,5 +1,6 @@
-import React from "react";
+import React, {useState} from "react";
 import "./verify.css";
+import Sure from "./Sure";
 
 const Hex = `{
     "clientName":"0x4ee45541ce49a773-403417447992879846'",
@@ -9,6 +10,16 @@ const Hex = `{
   }`
 
 function Modal({ setOpenModal }) {
+
+  const [modalOpen1, setModalOpen1] = useState(false);
+
+  const funcofunc = ()=>{
+    setModalOpen1(true);
+    
+  }
+
+  
+
   return (
     <div className="modalBackground">
       <div className="modalContainer">
@@ -23,6 +34,7 @@ function Modal({ setOpenModal }) {
         </div>
         <div className="title">
           <h1>Are You Sure You Want to Continue?</h1>
+          <h2>sign transaction</h2>
           
         </div>
         <div className="body">
@@ -37,9 +49,17 @@ function Modal({ setOpenModal }) {
           >
             Cancel
           </button>
-          <button>Continue</button>
+          <button
+          onClick={() => {
+            funcofunc()
+            // setOpenModal(false);
+          }}
+            
+          >Continue</button>
         </div>
       </div>
+
+      {modalOpen1 && <Sure setOpenModal_={setModalOpen1}/>}
     </div>
   );
 }
